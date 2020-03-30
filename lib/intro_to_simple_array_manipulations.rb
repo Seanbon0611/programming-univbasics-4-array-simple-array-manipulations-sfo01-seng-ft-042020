@@ -30,9 +30,8 @@ def using_insert(array, element)
   array.insert(4, element)
 end
 
-def using_uniq(captain_planet_and_the_planeteers)
-  captain_planet_and_the_planeteers = ["Captain Planet", "Gaia", "Kwame", "Gi", "Linka", "Wheeler", "Gaia"]
-  new_array = captain_planet_and_the_planeteers.uniq
+def using_uniq(array)
+  array.uniq
 end
 
 def using_flatten(array)
